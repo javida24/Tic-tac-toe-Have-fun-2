@@ -98,6 +98,12 @@ def clear_output():
 
 print('Welcome to Tic Tac Toe!')
 
+num_board = list(range(1,10))
+
+print('  TEMPLATE BOARD')
+
+display_board(num_board)
+
 while True:
     
     board = [' ']*9
